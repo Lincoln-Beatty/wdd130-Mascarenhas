@@ -15,15 +15,15 @@ body {
 #wrapper {
     max-width: 900px;
     margin: 30px auto;
-    background: white;
-    border: 2px solid #384856;
+    background: #FFAD69;
+    border: 2px solid #0F4C5C;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     overflow: hidden;
 }
 
 header {
-    background-color: #2e7168;
+    background-color: #9C3848;
     color: white;
     padding: 20px;
     text-align: center;
@@ -35,14 +35,14 @@ header h1 {
 }
 
 nav {
-    background: #384856;
+    background: #9C3848;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 nav a {
-    color: white;
+    color: White;
     text-decoration: none;
     padding: 14px 20px;
     font-size: 1.2em;
@@ -52,7 +52,8 @@ nav a {
 }
 
 nav a:hover {
-    background: #2e7168;
+    background: #F5E663;
+    color: #0F4C5C;
 }
 
 nav .logo {
@@ -68,7 +69,7 @@ main {
 }
 
 .welcome h2 {
-    color: #2e7168;
+    color: #0F4C5C;
 }
 
 .welcome p {
@@ -83,9 +84,15 @@ main {
     border-radius: 6px;
 }
 
+section {
+    background: #FFAD69;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 footer {
-    background: #2e7168;
-    color: white;
+    background: #9C3848;
+    color: White;
     text-align: center;
     padding: 15px;
 }
